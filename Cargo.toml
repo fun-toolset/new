@@ -1,0 +1,9 @@
+[package]
+name = "new"
+version = "0.1.1"
+edition = "2021"
+Description = "Create new files or directories"
+
+[dependencies]
+anyhow = "1.0.94"
+clap = { version = "4.5.21", features = ["cargo", "derive"] }
